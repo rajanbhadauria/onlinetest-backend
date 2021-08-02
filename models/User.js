@@ -33,7 +33,7 @@ module.exports = sequelize.define('User',{
     defaultValue: '0'
   },
   verify_token: {
-    type: Sequelize.STRING(40)
+    type: Sequelize.STRING(40),
     allowNull: true
   },
   password_token: {

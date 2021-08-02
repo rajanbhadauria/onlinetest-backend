@@ -45,8 +45,6 @@ module.exports = {
     },
     {
       timestamps:true,
-      createdAt: true,
-      updatedAt: 'updateTimestamp'
     }
 
     )
